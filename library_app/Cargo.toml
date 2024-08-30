@@ -1,0 +1,9 @@
+[package]
+name = "library_app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+lib_boworring ={ path = "../lib_boworring"}
+lib_users ={ path = "../lib_users"}
+lib_inventory ={ path = "../lib_inventory"}
